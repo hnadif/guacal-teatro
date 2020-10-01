@@ -1,0 +1,12 @@
+#collapsibleNavId li{
+    color: white;                        
+    font-family: Times, serif;
+    font-size: 1.2em;
+    padding: 5px 5px;
+    }
+
+.logo{
+     color: peru;
+      font-size: 1.2em;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   }
