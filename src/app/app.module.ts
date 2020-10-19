@@ -9,6 +9,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { CompagnieComponent } from './components/compagnie/compagnie.component';
 import { EventsComponent } from './components/events/events.component';
 import { ActeurComponent } from './components/acteur/acteur.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -19,11 +20,12 @@ import { ActeurComponent } from './components/acteur/acteur.component';
     ContactComponent,
     CompagnieComponent,
     EventsComponent,
-    ActeurComponent    
+    ActeurComponent 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
